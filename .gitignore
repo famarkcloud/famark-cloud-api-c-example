@@ -5,3 +5,4 @@
 /c_example/Debug
 /c_example/Release
 /c_example/x64
+/c_example/*.vcxproj.user
