@@ -78,7 +78,7 @@ size_t write_callback(char* source, size_t size, size_t nmemb, struct api_data_t
     return buffer_size;
 }
 
-char* famark_api_post_data(const char* url_suffix, char* body, const char* session_id) {
+char* famark_api_post_data(const char* url_suffix, const char* body, const char* session_id) {
 
     char url[128] = "https://www.famark.com/host/api.svc/api";
     strcat_s(url, sizeof(url), url_suffix);
