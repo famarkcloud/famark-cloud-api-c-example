@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "FamarkCloudAPI-C.h"
+#include "FamarkCloud.h"
 #include <json-c/json.h>
 
 int main()
