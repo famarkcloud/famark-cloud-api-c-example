@@ -6,3 +6,12 @@
 /c_example/Release
 /c_example/x64
 /c_example/*.vcxproj.user
+c_example/main.exe
+c_example/main.exp
+c_example/main.ilk
+c_example/main.lib
+c_example/main.obj
+c_example/main.pdb
+c_example/vc140.pdb
+
+
